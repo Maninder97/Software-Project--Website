@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<!-- to link the style of the webpage -->
+<link rel="stylesheet" type="text/css" href="mystyle.css"> 
+
+<!-- to link the icons used for this web page -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<!-- linking scripts-->
+<script src="scripts.js"></script>
+
+</head>
+<body>
+
+<!--  headings -->
+<h1><img src="logo.png" alt="logo" width="128" height="115" >ISSUES OF THE REAL WORLD</h1>
+<!-- /* Creating Navigation bar */-->
+<div class="topnav" id="myTopnav">
+  <a href="Home.html">Home</a>
+  <a href="About.html">About</a>
+  <a href="WhatCanBeDone.html">What Can Be Done</a>
+  <a class="active" href="Login.html" >Our Team</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="row">
+<div class="column">
+<div class="container" style="width:100%;height:100%">
+<div class="main">
+<h2>Login here to see our development team</h2>
+<form id="form_id" method="post" name="myform">
+<label>User Name :</label>
+<input type="text" name="username" id="username"/>
+<label>Password :</label>
+<input type="password" name="password" id="password"/>
+<label>
+      <input type="checkbox"  name="remember"> Remember me
+    </label>
+<input type="button" value="Login" id="submit" class="loginbtn" style="width:100%;" onclick="validate()"/>
+<button type="Reset" class="cancelbtn" style="width:100%;" value= "Reset">Reset</button>
+<p>*Only registered members can see the team information</p>
+</form>
+</div>
+</div>
+</div>
+<div class="column">
+  <div class="container" style="width:100%;height:100%;background-color:#eedfcc">
+<div class="main">
+<h2>Not Registered with us?</h2>
+<br>
+<b style="align:center;">Call our help desk service at:</b>
+<br>
+<br>
+<h2>0800 **** ****</h2>
+<br>
+<br>
+<b style="align:center;">Or send us an email at:</b>
+<br>
+<br>
+<h2>realworldissues@gmail.com</h2>
+</div>
+
+  </div>
+  </div>
+  </div>
+  <div class="footer">
+  <p>For any inquiries, Contact MK Solutions at 0800 **** ****</p>
+</div>
+
+
+</body>
+
+</html>
